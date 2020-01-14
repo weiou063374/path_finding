@@ -366,7 +366,9 @@ public class TestAgent : MonoBehaviour {
                     UnityEngine.Debug.DrawLine(CustomMath.TsVecToVector3(ag._vecRunningPath[i - 1]), CustomMath.TsVecToVector3(ag._vecRunningPath[i]), UnityEngine.Color.green, 1);
                 }              
             }
+#if UNITY_EDITOR
             ag._showDebug = debugDrawPath;
+#endif
             _pathNodeIdx = ag.TowardPathIdx;
             _totalPathNodeCount = ag._vecRunningPath.Count;
         }

@@ -235,6 +235,7 @@ PlayerSettings:
   tvOSManualSigningProvisioningProfileType: 0
   appleEnableAutomaticSigning: 0
   iOSRequireARKit: 0
+  iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
@@ -495,7 +496,7 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
-    1: PATHMANAGER_DEBUG;_DYNAMIC_FORCE;_USING_FLOW_FIELD;MULTI_THREAD
+    1: _PATHMANAGER_DEBUG;_DYNAMIC_FORCE;_USING_FLOW_FIELD;MULTI_THREAD
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
